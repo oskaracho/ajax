@@ -14,7 +14,7 @@ switch ($opcion) {
 				    $destino="";
 				    //probar que estan los campos llenos
 																			
-					//solicitando existencias
+					//solicitando existencias de::..
 
 									$query = 'INSERT INTO ejercicio (idEjercicio,idTipo_ejercicio,idCategoria, nombre,idEjer_tecnico,metodo,tarea,descripcion,imagen_ejercicio)
 									VALUES ("",\''.$pre.'\',\''.$cate.'\',\''.$nom.'\',\''.$ele.'\',\''.$metodo.'\',\''.$tarea.'\',\''.$descrip.'\',\''.$destino.'\')';
@@ -25,7 +25,6 @@ switch ($opcion) {
 		break;
 		
 		default:
-			# code...
 			break;
 	}		
 ?>
